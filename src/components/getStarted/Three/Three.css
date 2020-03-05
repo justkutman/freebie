@@ -1,0 +1,59 @@
+.three-page {
+    background: linear-gradient(241.76deg, #96EFA6 0%, #26A6B5 97.86%);
+    height: 100vh;
+    display: flex;
+    flex-display: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.three-title {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+}
+.three-img {
+    margin: 40px 0;
+}
+.three-img img {
+    margin-left: 15px;
+
+}
+
+
+.three-desc {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+
+.three-button {
+    cursor: pointer;
+}
+.three-button button:first-child {
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+.three-button button {
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000;
+    margin-left: 15px;
+}

@@ -1,0 +1,63 @@
+.create-passcode {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.num-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.create-passcode-wrap {
+    width: 320px;
+    background: linear-gradient(222.15deg, #5D455D -2.13%, #3B2E3B 84.9%);
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+
+
+.delete-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-wrap svg {
+    cursor: pointer;
+}
+
+.num-blocks {
+    background: linear-gradient(234.25deg, #7EF192 0%, #2DC897 94.47%);    box-shadow: 0px 4px 16px #EFF5FF;
+    border-radius: 10px;
+    width: 86px;
+    height: 80px;
+    margin-left: 10px;
+    color: #ffffff;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.num-blocks-wrap {
+    margin-top: 50px;
+    display: flex;
+}
+
+.zero {
+    text-align: center;
+    margin: 0 auto;
+
+}
+.delete-wrap {
+    position: relative;
+}
+.delete-wrap svg {
+    position: absolute;
+    right: 70px;
+}

@@ -1,0 +1,86 @@
+.BudgetPlanner {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.budget-planner {
+    background-color: #ffffff!important;
+    color: #ffffff;
+    width:350px;
+}
+.budget-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.budgetKey {
+    color: #000000;
+    font-size: 28px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px 25px;
+
+}
+
+
+.budgetKey:active {
+    background: #31D19E;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.budget-dots {
+    background: #31D19E;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.budget-dots-succes {
+    background: #31D19E;
+    mix-blend-mode: normal;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.budget-planner-wrap {
+    display: flex;
+    margin: 40px 0;
+}
+.delete-wrap {
+    color: #000000!important;
+}
+.delete-num-budget path{
+    fill: #000000;
+}
+
+.Forgot {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #31D19E;
+    cursor: pointer;
+}
+
+.budgetKey.zero {
+    position: absolute;
+    padding: 0 20px;
+}

@@ -1,0 +1,64 @@
+.avatar {
+    height: 84px;
+    background: url('Oval.png') center no-repeat;
+    position: relative;
+}
+
+.avatar .camera {
+    background: linear-gradient(135deg, #88A4FF 0%, #7451C9 100%);
+    display: inline-block;
+    padding: 8px;
+    line-height: 15px;
+    border-radius: 50%;
+    bottom: -10px;
+    position: absolute;
+    margin-left: 15px;
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about .continue {
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    background: linear-gradient(14.86deg, #7EF192 0%, #2DC897 94.65%);
+}
+
+.about .later {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    /* identical to box height, or 112% */
+
+    text-align: center;
+    cursor: pointer;
+    color: #31D19E;
+    margin-right: 20px;
+}
+.about-wrap {
+    margin: 20px 0;
+}
+.about-wrap img {
+    margin: 20px auto;
+}
+.wrap {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.about form {
+
+    width: 100px;
+}

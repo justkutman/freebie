@@ -1,0 +1,139 @@
+.AddAccountStepTwo {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AddAccountStepTwo button {
+    width: 400px;
+    height: 50px;
+    border: none;
+    color: #ffffff;
+    background: linear-gradient(7.53deg, #7EF192 0%, #2DC897 94.65%);
+    box-shadow: 0px 4px 16px #76ED92;
+    border-radius: 25px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.block-acc {
+    box-shadow: 0px 4px 16px #9FA0FF;
+    border-radius: 10px;
+    width: 340px;
+    height: 87px;
+    cursor: pointer;
+    position: relative;
+    z-index: 999;
+}
+
+.bank-account {
+    background: linear-gradient(195.93deg, #A1A3FF 2.22%, #6D63EF 97.93%);
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.bank-account img {
+    max-width: 100%;
+}
+
+.bank-account p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.bank-account h5 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.manual-account {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 20px;
+    background: linear-gradient(193.55deg, #FBADB4 3.72%, #EB6A9F 93.35%);
+}
+
+.manual-account h5 {
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.manual-account p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.manual-account .bank-account-title {
+    margin-left: 20px;
+}
+
+
+.active {
+    border: 1px solid #1C1C1C;
+}
+
+.AddAccountStepTwo input {
+    position: absolute;
+    margin: -1px;
+    clip: rect(0, 0, 0, 0);
+    z-index: -1;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+
+strong {
+    color: #58ba83;
+}
+
+.transition {
+    transition: all 0.3s ease-out;
+}
+
+.heading {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.center-align {
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: table;
+    margin-top: -40px;
+    margin-left: -150px;
+}
+
+input[type="radio"] {
+    height: 0;
+    width: 0;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+input:checked + label {
+    background-color: #58ba83;
+    border-radius: 25px;
+}

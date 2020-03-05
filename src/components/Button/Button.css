@@ -1,0 +1,17 @@
+.unique-button button {
+    background: linear-gradient(7.53deg, #7EF192 0%, #2DC897 94.65%);
+    box-shadow: 0px 4px 16px #76ED92;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.unique-button button:disabled {
+    opacity: 0.5;
+}

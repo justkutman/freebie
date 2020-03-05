@@ -1,0 +1,62 @@
+.AboutForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+}
+.AboutForm button {
+    background: linear-gradient(7.53deg, #7EF192 0%, #2DC897 94.65%);
+    box-shadow: 0px 4px 16px #76ED92;
+    border-radius: 25px;
+    border: none;
+    color: #ffffff;
+    width: 325px;
+    height: 50px;
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form input {
+    margin: 8px;
+    background: #FFFFFF;
+    border: 1px solid #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 45px;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.input-wrap {
+    position: relative;
+}
+
+.input-wrap span {
+    position: absolute;
+    font-size: 11px;
+    line-height: 10px;
+    color: #8A8A8A;
+    top:34px;
+    left: 20px;
+}
+
+.input-wrap i {
+    position: absolute;
+    right: 5px;
+    top: 40px;
+    color: #ffffff;
+    background: linear-gradient(225.49deg, #7EF192 14.39%, #2DC897 84.84%);
+    box-shadow: 0px 0px 12px rgba(124, 140, 186, 0.2);
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.validate {
+    font-size: 12px;
+}

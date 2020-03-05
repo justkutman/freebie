@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+body {
+    font: normal 0.6666666666666666em 'Roboto';
+    background-color: #3a3d4a;
+    color: #fff;
+}
+strong {
+    color: #58ba83;
+}
+.transition {
+    transition: all 0.3s ease-out;
+}
+.heading {
+    text-align: center;
+    font-size: 0.8em;
+}
+.center-align {
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: table;
+    margin-top: -40px;
+    margin-left: -150px;
+}
+input[type="radio"] {
+    height: 0;
+    width: 0;
+}
+label {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    background-color: #454545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+input:checked + label {
+    background-color: #58ba83;
+}

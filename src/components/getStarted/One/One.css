@@ -1,0 +1,31 @@
+.one-page {
+    background: linear-gradient(244.95deg, #A1A3FF 2.22%, #6D63EF 97.93%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.images-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.one-page-title {
+    margin: 20px 0;
+}
+
+.one-page button {
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px #EFF5FF;
+    border-radius: 25px;
+    width: 30%;
+    padding: 15px 0;
+    cursor: pointer;
+    border: none;
+}

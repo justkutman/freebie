@@ -1,0 +1,56 @@
+.two-page {
+    background: linear-gradient(240.9deg, #FFB382 -6.37%, #F07590 84.84%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    width: 100%;
+}
+
+.two-page img {
+    max-width: 100%;
+    width: 200px;
+    text-align: center;
+    margin:0 auto;
+}
+
+.two-page-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.dots-two {
+    margin: 0 30px;
+}
+
+.button-next {
+    padding: 15px 35px;
+    background-color: #fff;
+    color: #FD7F80;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.two-title h4 {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.two-title p {
+    margin: 20px 0;
+}
+
+.two-page button {
+    border: none
+}
+
+.two-page span {
+    cursor: pointer;
+}
