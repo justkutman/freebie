@@ -35,7 +35,7 @@ const AboutForm = ({newData, avatar, getNumSlide, nextSlide}) => {
     };
     return (
         <div className='AboutForm'>
-            <img src={avatar} alt=""/>
+            <img width={100} src={avatar} alt=""/>
             <BackArrow/>
             <Title title='More about you'/>
             <span>For delivery updates</span>
